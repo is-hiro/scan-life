@@ -1,0 +1,46 @@
+export const PRODUCT_CATEGORIES = [
+  {key: 'Мясо', value: 'meat'},
+  {key: 'Рыба', value: 'fish'},
+  {key: 'Молочка', value: 'dairy'},
+  {key: 'Сыры', value: 'cheese'},
+  {key: 'Яйца', value: 'eggs'},
+  {key: 'Овощи', value: 'vegetables'},
+  {key: 'Фрукты', value: 'fruits'},
+  {key: 'Орехи и семечки', value: 'nuts_seeds'},
+  {key: 'Крупы, злаки', value: 'grains'},
+  {key: 'Бобовые', value: 'legumes'},
+  {key: 'Хлебобулочные', value: 'bread'},
+  {key: 'Конфеты, десерты', value: 'sweets'},
+  {key: 'Напитки', value: 'beverages'},
+  {key: 'Фастфуд', value: 'fast_food'},
+  {key: 'Колбасы, сосиски', value: 'processed_meat'},
+  {key: 'Масла, жиры', value: 'oils_fats'},
+  {key: 'Чипсы, снеки', value: 'snacks'},
+  {key: 'Специи, соусы', value: 'condiments'},
+  {key: 'Морепродукты', value: 'seafood'},
+  {key: 'Другое', value: 'other'}
+]
+
+
+export const CATEGORY_MODIFIERS = {
+  meat: {maxFats: 20, maxCarbs: 5, maxCalories: 250},
+  fish: {maxFats: 15, maxCarbs: 5, maxCalories: 250},
+  dairy: {maxFats: 10, maxCarbs: 10, maxCalories: 150},
+  cheese: {maxFats: 30, maxCarbs: 5, maxCalories: 400},
+  eggs: {maxFats: 10, maxCarbs: 2, maxCalories: 150},
+  vegetables: {maxFats: 5, maxCarbs: 15, maxCalories: 50},
+  fruits: {maxFats: 2, maxCarbs: 20, maxCalories: 100},
+  nuts_seeds: {maxFats: 50, maxCarbs: 15, maxCalories: 600},
+  grains: {maxFats: 5, maxCarbs: 70, maxCalories: 350},
+  legumes: {maxFats: 5, maxCarbs: 50, maxCalories: 350},
+  bread: {maxFats: 5, maxCarbs: 60, maxCalories: 300},
+  sweets: {maxFats: 10, maxCarbs: 70, maxCalories: 500},
+  beverages: {maxFats: 0, maxCarbs: 20, maxCalories: 50},
+  fast_food: {maxFats: 30, maxCarbs: 50, maxCalories: 800},
+  processed_meat: {maxFats: 30, maxCarbs: 10, maxCalories: 350},
+  oils_fats: {maxFats: 100, maxCarbs: 0, maxCalories: 900},
+  snacks: {maxFats: 40, maxCarbs: 50, maxCalories: 600},
+  condiments: {maxFats: 20, maxCarbs: 20, maxCalories: 200},
+  seafood: {maxFats: 10, maxCarbs: 5, maxCalories: 150},
+  other: {maxFats: 20, maxCarbs: 20, maxCalories: 200}
+}
