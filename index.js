@@ -22,7 +22,7 @@ app.use((req, res, next) => {
   next()
 })
 
-const PORT = process.env.PORT || 8082
+const PORT = process.env.PORT || 10000
 
 ConnectDB()
 RegisterRoutes(app)
